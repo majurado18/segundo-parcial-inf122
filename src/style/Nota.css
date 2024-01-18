@@ -1,0 +1,60 @@
+:root {
+    --white:#FFFFFF;
+    --black:#000000;
+    --green:#27a720;
+    --sm: 24px;
+}
+
+button {
+    width: 60px;
+    height: 80px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--green);
+  
+
+}
+
+
+.editar-nota {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    border-radius: 10px;
+    color: var(--black);
+
+}
+
+.editar-nota textarea {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    text-align: center;
+
+}
+
+.nota {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    text-align: center;
+    
+}
+
+.boton {
+    width: 90px;
+    height: 30px;
+   
+}
+
+button:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
