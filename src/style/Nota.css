@@ -47,13 +47,29 @@ button {
     text-align: center;
     
 }
-
-.boton {
-    width: 90px;
-    height: 30px;
-   
+.contenedor-nota{
+    background-color: var(--white);
+    color: var(--black);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+.boton {
+    width: 190px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.boton1{
 
+        width: 190px;
+        height: 40px;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+        cursor: pointer;
+}
 button:hover {
     background-color: var(--green);
     color: var(--black);

@@ -41,6 +41,7 @@ function Listametas() {
                     onEdit={editarNota}
                 />
             ))}
+            
         </div>
     );
 }
